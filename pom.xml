@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.provinzial</groupId>
+	<groupId>my.pkg</groupId>
 	<artifactId>entities</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>entities</name>
@@ -41,8 +41,8 @@
 							</execution>
 						</executions>
 						<configuration>
-							<sourceDirectory>${project.basedir}/lombok-src/de/provinzial/entities</sourceDirectory>
-							<outputDirectory>${project.basedir}/src/main/java/de/provinzial/entities</outputDirectory>
+							<sourceDirectory>${project.basedir}/lombok-src/my/pkg/entities</sourceDirectory>
+							<outputDirectory>${project.basedir}/src/main/java/my/pkg/entities</outputDirectory>
 							<verbose>true</verbose>
 							<formatPreferences>
 								<javaLangAsFQN>skip</javaLangAsFQN>

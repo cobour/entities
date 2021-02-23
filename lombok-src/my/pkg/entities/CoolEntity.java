@@ -1,4 +1,4 @@
-package de.provinzial.entities;
+package my.pkg.entities;
 
 import lombok.Builder;
 import lombok.Data;

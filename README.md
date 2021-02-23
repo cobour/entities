@@ -9,5 +9,5 @@ mvn package
 ```
 
 ```
-java -cp target/entities-0.0.1-SNAPSHOT.jar de.provinzial.RunMe
+java -cp target/entities-0.0.1-SNAPSHOT.jar my.pkg.RunMe
 ```

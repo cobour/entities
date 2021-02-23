@@ -1,7 +1,7 @@
-package de.provinzial;
+package my.pkg;
 
-import de.provinzial.entities.CoolEntity;
-import de.provinzial.entities.CoolEntity.CoolEntityBuilder;
+import my.pkg.entities.CoolEntity;
+import my.pkg.entities.CoolEntity.CoolEntityBuilder;
 
 public class RunMe {
 
