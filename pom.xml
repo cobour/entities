@@ -11,6 +11,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+    	<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 
 	<dependencies>
@@ -40,7 +42,7 @@
 						</executions>
 						<configuration>
 							<sourceDirectory>${project.basedir}/lombok-src/de/provinzial/entities</sourceDirectory>
-							<outputDirectory>${project.basedir}/src-gen/main/java/de/provinzial/entities</outputDirectory>
+							<outputDirectory>${project.basedir}/src/main/java/de/provinzial/entities</outputDirectory>
 							<verbose>true</verbose>
 							<formatPreferences>
 								<javaLangAsFQN>skip</javaLangAsFQN>
